@@ -1,0 +1,24 @@
+public class Car {
+    private int car_ID;
+    private String brand;
+    private String model;
+    private int year; 
+    private String fuel_Type;
+    private String color;
+    private double mileageKmpl;
+    
+    // Constructor
+    public Car(int carId, String brand, String model, int year, String fuelType, String color, double mileageKmpl) {
+        this.carId = carId;
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+        this.fuelType = fuelType;
+        this.color = color;
+        this.mileageKmpl = mileageKmpl;
+    }
+
+    
+   
+    }
+
